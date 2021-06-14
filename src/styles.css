@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+div.line pre {
+    display: inline-block;
+    margin: 4px 8px;
+}
+
+button.login {
+    margin-top: 4px;
+}
