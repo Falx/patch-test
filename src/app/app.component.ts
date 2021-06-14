@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
     const fetch = solidAuth.getDefaultSession().fetch;
     const myPatch = "INSERT DATA { <ex:s> <ex:p> <ex:o> }";
     fetch(this.info?.webId!, {
-      method: 'patch',
+      method: 'PATCH',
       headers: {
         'Content-Type': 'application/sparql-update'
       },
